@@ -73,5 +73,5 @@ Route::middleware('auth')->group(function () {
     Route::resource("trackingLogs", TrackingLogController::class);
     Route::post("/create/order", CreateOrderController::class)->name("create.order");
     Route::get("/order", [WebController::class, "order"])->name("order");
-    Route::get('/home', [WebController::class, "index"])->name('home');
+    Route::get('/home', [WebController::class, "home"])->name('home');
 });

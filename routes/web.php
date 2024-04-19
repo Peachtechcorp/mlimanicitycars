@@ -9,6 +9,7 @@ use App\Http\Controllers\CreateOrderController;
 use App\Http\Controllers\CurrencyController;
 use App\Http\Controllers\DriveUnitController;
 use App\Http\Controllers\FuelController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Inv\TrackingInvController;
 use App\Http\Controllers\ModelCodeController;
 use App\Http\Controllers\ModeliController;
@@ -30,8 +31,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/', [WebController::class, "home"])->name("user.home");
 Route::post('/search', [WebController::class, "search"])->name("search");
 Route::get('car/{car}', [WebController::class, "show"])->name('car');
@@ -73,5 +73,5 @@ Route::middleware('auth')->group(function () {
     Route::resource("trackingLogs", TrackingLogController::class);
     Route::post("/create/order", CreateOrderController::class)->name("create.order");
     Route::get("/order", [WebController::class, "order"])->name("order");
-    Route::get('/home', [WebController::class, "home"])->name('home');
+    //Route::get('/home', [WebController::class, "home"])->name('home');
 });

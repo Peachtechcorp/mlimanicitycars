@@ -9,7 +9,7 @@
                     <h3><a class="block text-lg font-bold text-white text-center transition-all mb-2" href="#">ABOUT US</a></h3>
                     <nav>
                         <ul class="flex flex-wrap items-center justify-center">
-                            <li class="mr-5"><a href="index.html" class="text-white font-medium text-base uppercase transition-all hover:text-orange relative before:w-5 before:h-1px before:empty before:absolute before:top-3 before:bg-dark before:transform before:rotate-115 before:-right-5">Home</a></li>
+                            <li class="mr-5"><a href="/" class="text-white font-medium text-base uppercase transition-all hover:text-orange relative before:w-5 before:h-1px before:empty before:absolute before:top-3 before:bg-dark before:transform before:rotate-115 before:-right-5">Home</a></li>
                             <li class="text-white font-medium text-base uppercase mr-5">about us</li>
                         </ul>
                     </nav>

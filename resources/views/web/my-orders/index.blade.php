@@ -10,10 +10,10 @@
                             ORDERS</a></h3>
                     <nav>
                         <ul class="flex flex-wrap items-center justify-center">
-                            <li class="mr-5"><a href="index.html"
+                            <li class="mr-5"><a href="/"
                                     class="text-white font-medium text-base uppercase transition-all hover:text-orange relative before:w-5 before:h-1px before:empty before:absolute before:top-3 before:bg-dark before:transform before:rotate-115 before:-right-5">Home</a>
                             </li>
-                            <li class="text-white font-medium text-base uppercase mr-5">shop left sidebar</li>
+                            <li class="text-white font-medium text-base uppercase mr-5">my order</li>
                         </ul>
                     </nav>
                 </div>
@@ -26,6 +26,7 @@
         <!-- blog grid section start -->
         <div class="py-7">
             <div class="container">
+                
 
                 <div class="relative overflow-x-auto">
                     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">

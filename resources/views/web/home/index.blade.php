@@ -34,7 +34,7 @@
                                                                 style="background-color: rgb(220 38 38);">{{ $car->currency->code }}
                                                                 {{ number_format($car->price, 2) }}</button>
                                                             <img class="w-full h-full"
-                                                                src="{{ $car->car_pictures->count() ? $car->car_pictures[0]->link : asset('images/featured-vehicles/v1.jpg') }}"
+                                                                src="{{ $car->car_pictures->count() ? asset($car->car_pictures[0]->link) : asset('images/featured-vehicles/v1.jpg') }}"
                                                                 alt="{{ asset('images/featured-vehicles/v1.jpg') }}"
                                                                 loading="lazy" width="432" height="480" />
                                                         </div>

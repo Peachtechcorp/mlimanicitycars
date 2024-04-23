@@ -5,7 +5,7 @@
         <div class="container">
             <div class="grid grid-cols-12 gap-x-4">
                 <div class="col-span-12">
-                    <h3><a class="block text-lg font-bold text-white text-center transition-all mb-2" href="#">CONTACT US</a></h3>
+                    <h3><a class="block text-lg font-bold text-white text-center transition-all mb-2" href="/contact">CONTACT US</a></h3>
                     <nav>
                         <ul class="flex flex-wrap items-center justify-center">
                             <li class="mr-5"><a href="/" class="text-white font-medium text-base uppercase transition-all hover:text-orange relative before:w-5 before:h-1px before:empty before:absolute before:top-3 before:bg-dark before:transform before:rotate-115 before:-right-5">Home</a></li>
@@ -37,7 +37,7 @@
                         </div>
                         <div class="flex flex-wrap items-center">
                             <span class="text-dark text-4xl mr-5"><i class="icon-screen-smartphone"></i></span>
-                            <a href="tel:01234567890" class="flex-1">(+255) 677 841 111 / (+255) 788 308 130</a>
+                            <a href="tel:01234567890" class="flex-1">(+255) 677 841 111 / (+255) 769 117 997</a>
                         </div>
                         
                         <div class="flex flex-wrap items-center mt-3">
